@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+#buttonKurGetir,
+#buttonHesapla {
+    padding: 10px;
+    background-color: #369f39;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#buttonKurGetir:hover,
+#buttonHesapla:hover {
+    background-color: #45a049;
+}
+
+#input {
+    padding: 10px;
+    border: 1px solid #eeeded;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#sonuc {
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}

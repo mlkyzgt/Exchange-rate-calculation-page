@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./kurhesaplama.css">
+    <title>DOLAR - TL ÇEVİRİCİ</title>
+</head>
+<body>
+    <div class="container">
+        <h2>USD TO TL CONVERTER</h2>
+        <p>Current exchange rate: <span id="kur">00</span></p>
+        <input id="buttonKurGetir" onclick="kurGetir()" type="button" value="DISPLAY EXCHANGE RATE VALUE">
+        <br><br>
+        <input id="input" type="number" placeholder="Please tell us how many USD you want to convert to TL.">
+        <br><br>
+        <input id="buttonHesapla" onclick="hesapla()" type="button" value="CALCULATE">
+        <p>CONCLUSION:</p>
+        <p id="sonuc"></p>
+    </div>
+
+    <script src="./kurhesaplama.js"></script>
+</body>
+</html>
